@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="order.css">
+    <title>PLACE ORDER</title>
+</head>
+<body>
+    <a href="index.html" class="back-to-home">Back to Home</a>
+  <div class="container">
+    <h1>Place Your Coffee Order</h1>
+    <form id="order-form">
+        <div class="column">
+            <h2>PRODUCT OPTION</h2>
+            <label>
+                <input type="checkbox" name="coffee" value="espresso">
+                FRENCH BROWNIES CAKE WITH HOT COFFEE
+            </label>
+            <label>
+                <input type="checkbox" name="coffee" value="latte">
+                SLICED CHOCOLATE BREAD AND COFFEE
+            </label>
+            <label>
+                <input type="checkbox" name="coffee" value="cappuccino">
+                ITALIAN PASTA AND HOT COFFEE
+            </label>
+        </div>
+        <div class="column">
+            <h2>Quantities</h2>
+            <label>
+              FRENCH BROWNIES CAKE WITH HOT COFFEE: <input type="number" name="espressoQuantity" min="0">
+            </label>
+            <label>
+              SLICED CHOCOLATE BREAD AND COFFEE: <input type="number" name="latteQuantity" min="0">
+            </label>
+            <label>
+              ITALIAN PASTA AND HOT COFFEE: <input type="number" name="cappuccinoQuantity" min="0">
+            </label>
+        </div>
+        <div class="column">
+            <h2>Customer Information</h2>
+            <label>
+                Name: <input type="text" name="customerName" required>
+            </label>
+            <label>
+                Email: <input type="email" name="customerEmail" required>
+            </label>
+            <button type="submit">Place Order</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

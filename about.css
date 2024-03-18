@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: url('backgroundds.png') no-repeat;
+    background-size: cover;
+}
+
+main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 100px;
+    background-color: transparent;
+}
+
+.logo {
+    color: gray;
+    font-size: 38px;
+    padding-left: 50px;
+}
+
+.navbar {
+    margin: 0 14px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 18px;
+    justify-content: space-between;
+    color: whitesmoke;
+    font-weight: 800;
+    margin: 0 18px;
+    transition: .3s;
+}
+
+.navbar .home {
+    color: orange;
+}
+
+.navbar a:hover{
+    color: plum;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 25px;
+}
+.head h2 {
+    color:  white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.parag {
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 0 500px;
+}
+
+.parag h4 {
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 80px;
+}
+

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}
+
+body {
+    min-height: 69vh;
+    background: url('backgroundds.png') no-repeat;
+    background-size: cover;
+}
+
+main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 100px;
+    background-color: transparent;
+}
+
+.logo {
+    color: gray;
+    font-size: 38px;
+    padding-left: 50px;
+}
+
+.navbar {
+    margin: 0 14px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 18px;
+    justify-content: space-between;
+    color: whitesmoke;
+    font-weight: 800;
+    margin: 0 18px;
+    transition: .3s;
+}
+
+.navbar .home {
+    color: orange;
+}
+
+.navbar a:hover{
+    color: plum;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 300px;
+    padding: 14px 80px;
+}
+
+.cardbox1 {
+    background: transparent;
+    width: 450px;
+    height: 350px;
+    position: relative;
+}
+
+.cardbox1 img {
+    position: absolute;
+    width: 450px;
+    height: 350px;
+}
+
+.cardbox1 h3 {
+    color: white;
+    margin-top: 400px;
+    font-weight: 600;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-left:  35px;
+}
+
+
+.cardbox2 {
+    background: transparent;
+    width: 450px;
+    height: 350px;
+    position: relative;
+}
+
+.cardbox2 img {
+    position: absolute;
+    width: 450px;
+    height: 350px;
+}
+
+.cardbox2 h3 {
+    color: white;
+    margin-top: 400px;
+    font-weight: 600;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 70px;
+}
+
+.cardbox3 {
+    background: transparent;
+    width: 450px;
+    height: 350px;
+    position: relative;
+}
+
+.cardbox3 img {
+    position: absolute;
+    width: 450px;
+    height: 350px;
+}
+
+.cardbox3 h3 {
+    color: white;
+    margin-top: 400px;
+    font-weight: 600;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.btnplace {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    font-weight: 700;
+    margin-top: 50px;
+    width: 170px;
+    height: 80px;
+    color: white;
+    border: solid orange;
+    cursor: pointer;
+    border-radius: 100px;
+    font-size: 18px;
+    background-color: transparent;
+}
+
+.menu a {
+    text-decoration: none;
+}
